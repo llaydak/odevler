@@ -1,18 +1,11 @@
 #include <stdio.h>
+void selamla() {
+  static int sayigiris = 1;
+  printf("Merhaba sayÄ±n numara %d\n", sayigiris);
+  sayigiris ++; }
 
-
-int merhabade(int girno) {
-  
-  printf("Numaranızı giriniz. \n");
-  scanf("%d", &girno);
-  printf("Merhaba sayın numara %d\n", girno);
-  girno ++; 
-  return girno;
-}
-  
-  
 int main() {    
-  int a;
-  for (; a<= 5; a++) { merhabade(a);}
+  int i;
+  for (i = 0; i < 11; i++) { selamla();}
    return 0;}
 
