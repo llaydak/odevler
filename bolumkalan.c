@@ -1,13 +1,13 @@
-//bölüm kalan bulma//
+//bÃ¶lÃ¼m kalan bulma,son hali ekrana yazdÄ±rmÄ±yor//
 
 #include <stdio.h>
 
 float bolme(int bolunen, int bolen, float bolum){
 	
 	
-    printf("Bölünecek sayıyı giriniz: \n");
+    printf("BÃ¶lÃ¼necek sayÄ±yÄ± giriniz: \n");
     scanf("%d", &bolunen);
-    printf("Bölen sayıyı giriniz: \n ");
+    printf("BÃ¶len sayÄ±yÄ± giriniz: \n ");
     scanf("%d", &bolen);
  
     bolum=bolunen/bolen;
@@ -34,7 +34,7 @@ int main() {
   boldu=bolme(bol,boldur,bul);
   kaldi=kal(bol,boldur,art);
   
-  printf("Bölüm ve kalan = %d %d", boldu,kaldi);
+  printf("BÃ¶lÃ¼m ve kalan = %d %d", boldu,kaldi);
   	
   	return 0;
   }
