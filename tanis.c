@@ -7,9 +7,6 @@ int tanis(int yas)
     printf("Senin adýn kaç harfli? Tuþla:");
     scanf("%d",&yas);
     return yas;
-    /* There is no return statement inside this function, since its
-     * return type is void
-     */
 }
 
 int main()
