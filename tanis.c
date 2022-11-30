@@ -1,8 +1,10 @@
+#include <stdio.h>
+
 int tanis(int yas)
 {
     printf("Merhaba\n");
-    printf("Benim adım İlayda ve ismim 6 harfli \n");
-    printf("Senin adın kaç harfli? Tuşla:");
+    printf("Benim adÃ½m Ãlayda ve ismim 6 harfli \n");
+    printf("Senin adÃ½n kaÃ§ harfli? TuÃ¾la:");
     scanf("%d",&yas);
     return yas;
     /* There is no return statement inside this function, since its
