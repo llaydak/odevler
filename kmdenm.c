@@ -1,4 +1,4 @@
-//doðru çalýþmýyor//  
+  
   
   
   #include <stdio.h>
