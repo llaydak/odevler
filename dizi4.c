@@ -1,15 +1,15 @@
 #include <stdio.h>
 int eleman,i;
 float enbuyukiki,max1,max2;
-int ikincienbuyuk(){
+int ikinci(){
 
-   printf("Toplam eleman sayisini girin: ");
+   printf("Dizinin eleman sayısını giriniz: ");
     scanf("%d", &eleman);
     printf("\n");
    float sayilar[eleman];
     for(i = 0; i < eleman; ++i)
     {
-       printf("%d. sayiyi giriniz: ", i+1);
+       printf("%d. sayıyı giriniz: ", i+1);
        scanf("%f", &sayilar[i]);
     }
       if(sayilar[0]>sayilar[1]){
@@ -36,7 +36,7 @@ int ikincienbuyuk(){
 }
 
 int main(){
-  ikincienbuyuk();
+  ikinci();
 
   return 0;
 
