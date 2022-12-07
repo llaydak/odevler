@@ -1,28 +1,28 @@
 #include <stdio.h>
 
-float referans;
+float ref;
 int i,eleman,sayi;
 
 int kacKez(){
     
- printf("Toplam eleman sayisini girin: ");
+ printf("Dizinin eleman sayısını giriniz: ");
     scanf("%d", &eleman);
     printf("\n");
    float sayilar[eleman];
     for(i = 0; i < eleman; ++i)
     {
-       printf("%d. sayiyi giriniz: ", i+1);
+       printf("%d. sayıyı giriniz: ", i+1);
        scanf("%f", &sayilar[i]);
     }
-    printf("\nDizide hangi sayinin kac defa gectigini ogrenmek istiyorsunuz: ");
-    scanf("%f", &referans);
+    printf("\n Dizide hangi sayının kaç defa geçtiğin öğrenmek istiyorsunuz: ");
+    scanf("%f", &ref);
     sayi=0;
 
     for(i=0;i<eleman;++i){
-        if(referans==sayilar[i])
+        if(ref==sayilar[i])
             sayi++;
     }
-    printf("%.2f sayiniz bu dizide %d defa var.", referans,sayi);
+    printf("%.2f sayınız bu dizide %d defa var.", ref,sayi);
 }
     int main(){
         kacKez();
