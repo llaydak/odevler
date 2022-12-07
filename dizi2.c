@@ -2,8 +2,8 @@
 
  int i,eleman,buyuk;
 
-float enBuyuk(){
-     printf("Toplam eleman sayisini girin: ");
+float enbuyuk(){
+     printf("Dizinin eleman sayısını giriniz: ");
     scanf("%d", &eleman);
     printf("\n");
    float sayilar[eleman];
@@ -24,6 +24,6 @@ float enBuyuk(){
     return buyuk;
 }
 int main(){
-enBuyuk();
+enbuyuk();
     return 0;
 }
