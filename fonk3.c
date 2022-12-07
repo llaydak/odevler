@@ -2,14 +2,14 @@
 
  int i,eleman,kucuk;
 
-float enKucuk(){
-     printf("Toplam eleman sayisini girin: ");
+float enkucuk(){
+     printf("Dizinin eleman sayısını giriniz: ");
     scanf("%d", &eleman);
     printf("\n");
    float sayilar[eleman];
     for(i = 0; i < eleman; ++i)
     {
-       printf("%d. sayiyi giriniz: ", i+1);
+       printf("%d. sayıyı giriniz: ", i+1);
        scanf("%f", &sayilar[i]);
     }
 
@@ -24,6 +24,6 @@ float enKucuk(){
     return kucuk;
 }
 int main(){
-enKucuk();
+enkucuk();
     return 0;
 }
